@@ -25,7 +25,8 @@ const Classifier = () => {
         try {
         //const model = await mobilenet.load()
         //const model = await tf.loadLayersModel(modelJson)
-        const model = await tf.loadLayersModel('https://www.dropbox.com/sh/dih4moq4fol5hwy/AAD0U9RfZ2osKU08gbtX_SZza?dl=0%2Fmodel.json')
+        //const model = await tf.loadLayersModel('https://www.dropbox.com/sh/dih4moq4fol5hwy/AAD0U9RfZ2osKU08gbtX_SZza?dl=0%2Fmodel.json')
+        const model = await tf.loadLayersModel('https://raw.githubusercontent.com/patrickhennessy-dal/weed_class_asabe21/master/src/assets/model/model.json')
         setModel(model)
         setIsModelLoading(false)
 

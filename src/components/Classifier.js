@@ -28,8 +28,9 @@ const Classifier = () => {
         //const model = await tf.loadLayersModel('https://www.dropbox.com/sh/dih4moq4fol5hwy/AAD0U9RfZ2osKU08gbtX_SZza?dl=0%2Fmodel.json')
         //const model = await tf.loadLayersModel('https://raw.githubusercontent.com/patrickhennessy-dal/weed_class_asabe21/master/src/assets/model/model.json')
         //const model = await tf.loadLayersModel('https://github.com/patrickhennessy-dal/weed_class_asabe21/blob/master/src/assets/model/model.json')
-        const model = await tf.loadLayersModel('https://173.252.4.22/model/model.json')
+        //const model = await tf.loadLayersModel('https://173.252.4.22/model/model.json')
         //const model = await tf.loadLayersModel('https://192.168.0.31/model/model.json')
+        const model = await tf.loadLayersModel('https://cdn.jsdelivr.net/gh/patrickhennessy-dal/weed_class_asabe21/src/assets/modelB0/model.json')
         setModel(model)
         setIsModelLoading(false)
 

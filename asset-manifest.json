@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/weed_class_asabe21/static/css/main.e29996ac.chunk.css",
-    "main.js": "/weed_class_asabe21/static/js/main.f21543e4.chunk.js",
-    "main.js.map": "/weed_class_asabe21/static/js/main.f21543e4.chunk.js.map",
+    "main.css": "/weed_class_asabe21/static/css/main.e685a281.chunk.css",
+    "main.js": "/weed_class_asabe21/static/js/main.2a9bc7e6.chunk.js",
+    "main.js.map": "/weed_class_asabe21/static/js/main.2a9bc7e6.chunk.js.map",
     "runtime-main.js": "/weed_class_asabe21/static/js/runtime-main.67c4900e.js",
     "runtime-main.js.map": "/weed_class_asabe21/static/js/runtime-main.67c4900e.js.map",
     "static/js/2.9e5cd392.chunk.js": "/weed_class_asabe21/static/js/2.9e5cd392.chunk.js",
@@ -10,13 +10,14 @@
     "static/js/3.87b4db8d.chunk.js": "/weed_class_asabe21/static/js/3.87b4db8d.chunk.js",
     "static/js/3.87b4db8d.chunk.js.map": "/weed_class_asabe21/static/js/3.87b4db8d.chunk.js.map",
     "index.html": "/weed_class_asabe21/index.html",
-    "static/css/main.e29996ac.chunk.css.map": "/weed_class_asabe21/static/css/main.e29996ac.chunk.css.map",
-    "static/js/2.9e5cd392.chunk.js.LICENSE.txt": "/weed_class_asabe21/static/js/2.9e5cd392.chunk.js.LICENSE.txt"
+    "static/css/main.e685a281.chunk.css.map": "/weed_class_asabe21/static/css/main.e685a281.chunk.css.map",
+    "static/js/2.9e5cd392.chunk.js.LICENSE.txt": "/weed_class_asabe21/static/js/2.9e5cd392.chunk.js.LICENSE.txt",
+    "static/media/Logo_CPU.34e63f65.svg": "/weed_class_asabe21/static/media/Logo_CPU.34e63f65.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.67c4900e.js",
     "static/js/2.9e5cd392.chunk.js",
-    "static/css/main.e29996ac.chunk.css",
-    "static/js/main.f21543e4.chunk.js"
+    "static/css/main.e685a281.chunk.css",
+    "static/js/main.2a9bc7e6.chunk.js"
   ]
 }

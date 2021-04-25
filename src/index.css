@@ -57,3 +57,10 @@ body {
     border: 0.15em solid #000000;
     border-radius: 0.25em;
 }
+
+.logoCPU {
+    width: 42px; 
+    height: 42px;
+    padding-right: 10px;
+    margin-bottom: -7px;
+}

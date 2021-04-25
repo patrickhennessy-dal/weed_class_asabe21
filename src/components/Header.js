@@ -1,10 +1,10 @@
 import PropTypes from 'prop-types' 
+import logo from './Logo_CPU.svg'
 
 const Header = ({ title }) => {
     return (
         <header className = 'header'>
-            <h1>CNN Weed Classifier</h1>
-            <img src = '../../public/Logo_CPU.png' alt='Logo' width='42' height='42'/>
+            <h1><img className = 'logoCPU' src = {logo} alt='Logo'/>CNN Weed Classifier</h1>
         </header>
     )
 }

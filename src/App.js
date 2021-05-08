@@ -1,25 +1,23 @@
 import Header from './components/Header'
 import Intro from './components/Intro'
-//import Samples from './components/Samples'
 import Classifier from './components/Classifier'
 //import Management from './components/Management'
 import Acknowledgements from './components/Acknowledgements'
-//import Cite from './components/Cite'
+import Cite from './components/Cite'
 //import References from './components/References'
-//import Footer from './components/Footer'
+import Footer from './components/Footer'
 
 function App() {
   return (
     <div className="container">
       <Header />
       <Intro />
-      {/*<Samples />*/}
       <Classifier />
       {/*<Management />*/}
       <Acknowledgements />
-      {/*<Cite />*/}
+      <Cite />
       {/*<References />*/}
-      {/*<Footer />*/}
+      <Footer />
     </div>
   );
 }

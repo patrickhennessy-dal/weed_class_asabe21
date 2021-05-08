@@ -1,4 +1,3 @@
-import PropTypes from 'prop-types' 
 import logo from './Logo_CPU.svg'
 
 const Header = ({ title }) => {

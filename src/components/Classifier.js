@@ -56,7 +56,7 @@ const Classifier = () => {
     }, [])
 
     if (isModelLoading) {
-        return <h2>Model Loading...</h2>
+        return <h2 className='centreColumn'>Loading...</h2>
     }
 
     //console.log(results)

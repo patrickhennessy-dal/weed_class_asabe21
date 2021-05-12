@@ -9,9 +9,9 @@ const Management = () => {
             <h3>Goldenrod</h3>
             <p>Goldenrods [<i>Solidago</i> spp.] are best managed with mesotrione [Callisto] or glyphosate [Roundup] (Farooq, 2018; Government of New Brunswick, 2017).</p>
             <h3>Hair Fescue</h3>
-            <p>Pronamide [Kerb SC] is the best option for managing hair fescue [<i>Festuca filiformis</i> pourr.] (Government of New Brunswick, 2017; White, 2019). Applications of glufosinate [Ignite SN] and foramsulfuron [Option 2.25 OD] supress hair fescue, but do not completely remove it (White, 2019).</p>
+            <p>Pronamide [Kerb SC] is the best option for managing hair fescue [<i>Festuca filiformis</i> pourr.] (Government of New Brunswick, 2017; White, 2019). Applications of glufosinate [Ignite SN] and foramsulfuron [Option 2.25 OD] suppress hair fescue, but do not completely remove it (White, 2019).</p>
             <h3>Hawkweed</h3>
-            <p>Hawkweeds [<i>Hieracium</i> spp.] are susceptible to clopyralid [Lontrel 360 EC] and dicamba [Banvel II], while hexazinone [Velpar DF] supresses it (Eriavbe, 2015).</p>
+            <p>Hawkweeds [<i>Hieracium</i> spp.] are susceptible to clopyralid [Lontrel 360 EC] and dicamba [Banvel II], while hexazinone [Velpar DF] suppresses it (Eriavbe, 2015).</p>
             <h3>Sheep Sorrel</h3>
             <p>Dicamba [Banvel II] is currently the best option for managing sheep sorrel [<i>Rumex acetosella</i> L.] (Government of New Brunswick, 2017), while hexazinone [Velpar DF] and pronamide [Kerb SC] have varying levels of success (Hughes et al., 2016; Kennedy et al., 2010).</p>
         </div>

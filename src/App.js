@@ -1,10 +1,10 @@
 import Header from './components/Header'
 import Intro from './components/Intro'
 import Classifier from './components/Classifier'
-//import Management from './components/Management'
+import Management from './components/Management'
 import Acknowledgements from './components/Acknowledgements'
 import Cite from './components/Cite'
-//import References from './components/References'
+import References from './components/References'
 import Footer from './components/Footer'
 
 function App() {
@@ -13,10 +13,10 @@ function App() {
       <Header />
       <Intro />
       <Classifier />
-      {/*<Management />*/}
+      <Management />
       <Acknowledgements />
       <Cite />
-      {/*<References />*/}
+      <References />
       <Footer />
     </div>
   );

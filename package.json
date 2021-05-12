@@ -5,9 +5,9 @@
   "private": true,
   "dependencies": {
     "@tensorflow-models/mobilenet": "^2.0.4",
-    "@tensorflow/tfjs": "^3.4.0",
-    "@tensorflow/tfjs-converter": "^3.4.0",
-    "@tensorflow/tfjs-core": "^3.4.0",
+    "@tensorflow/tfjs": "^3.6.0",
+    "@tensorflow/tfjs-converter": "^3.6.0",
+    "@tensorflow/tfjs-core": "^3.6.0",
     "@testing-library/jest-dom": "^5.11.10",
     "@testing-library/react": "^11.2.6",
     "@testing-library/user-event": "^12.8.3",

@@ -1,6 +1,5 @@
 import React from 'react'
 import { useState, useEffect, useRef } from 'react'
-//import * as mobilenet from "@tensorflow-models/mobilenet"
 import * as tf from '@tensorflow/tfjs'
 
 const Classifier = () => {
@@ -17,7 +16,7 @@ const Classifier = () => {
     const loadModel = async () => {
         setIsModelLoading(true)
         try {
-        const model = await tf.loadLayersModel('https://cdn.jsdelivr.net/gh/patrickhennessy-dal/weed_class_asabe21/src/assets/modelMN/model.json')
+        const model = await tf.loadLayersModel('https://cdn.jsdelivr.net/gh/patrickhennessy-dal/modelZoo/ASABE21/modelMN/model.json')
         setModel(model)
         setIsModelLoading(false)
 
@@ -56,7 +55,7 @@ const Classifier = () => {
     }, [])
 
     if (isModelLoading) {
-        return <h2 className='centreColumn'>Loading...</h2>
+        return <h2 className='centreColumn'>Please wait...</h2>
     }
 
     //console.log(results)
@@ -90,17 +89,6 @@ const Classifier = () => {
                     {imageURL && <button className='ctrlBtn' onClick={identify}>Identify Image</button>}
                 </div>
             </div>
-            {/*<div className='inputHolder'>
-                <input
-                  type='file'
-                  accept='image/*'
-                  capture='camera'
-                  className='uploadInput'
-                  onChange={uploadImage}
-                  ref={fileInputRef}
-                />
-                <button className='ctrlBtn' onClick={triggerUpload}>Upload Image</button>
-            </div>*/}
         </div>
       </div>
     )

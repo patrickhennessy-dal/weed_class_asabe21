@@ -104,6 +104,10 @@ pre {
     background-color: #FFFFFF;
 }
 
+p {
+    margin-bottom: 0.5em;
+}
+
 .reference {
     padding-left: 2em;
     text-indent:-2em;

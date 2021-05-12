@@ -39,6 +39,8 @@ body {
 .text {
     padding: 0.5em;
     font-size: 16;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .uploadInput {

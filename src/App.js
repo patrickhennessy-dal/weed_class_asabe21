@@ -5,6 +5,7 @@ import Management from './components/Management'
 import Acknowledgements from './components/Acknowledgements'
 import Cite from './components/Cite'
 import References from './components/References'
+import Disclaimer from './components/Disclaimer'
 import Footer from './components/Footer'
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Management />
       <Acknowledgements />
       <Cite />
+      <Disclaimer />
       <References />
       <Footer />
     </div>

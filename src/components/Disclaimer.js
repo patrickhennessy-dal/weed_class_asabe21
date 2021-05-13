@@ -1,0 +1,11 @@
+import React from 'react'
+
+const Disclaimer = () => {
+    return (
+        <div className='disclaimer text centreColumn' id='disclaimer'>
+            <p><i className='disclaimerStar'>*</i>Patrick J. Hennessy and Dalhousie University in collaboration with the Wild Blueberry Producers Association of Nova Scotia (WBPANS) [“The Owners”] compiled this Application to help wild blueberry farmers identify weeds commonly found in wild blueberry fields. The Application relies on information and data obtained from third party sources over which The Owners have no control, and which information is continuously changing and therefore can cease to be current and accurate. Pesticide labels are the best source of information and should always be consulted prior to using a product. The label is the best source of information on: registered crop uses, rates, days to harvest, compatibility with other pesticides, toxicity and other special information on its effective and safe use. The Owners do not make any representations as to the accuracy of the Application, and specifically disclaims all warranties, expressed or implied, with respect to its use. The Owners do not assume any liability for any losses caused by the use of a pesticide mentioned in this Application, including without limitation crop loss, animal loss, or health, safety or environmental hazard. By accessing, printing, or using this Application each user agrees to release, waive, and hold harmless The Owners from all liability or claims for loss however incurred. This Application is meant to be used only as a reference for identification of weeds in wild blueberry production. Where there are brand names of a specific active ingredient registered in Canada, they are for reference purpose only and as such do not form an endorsement of one brand over another. If you have used or have purchased a generic product not specifically in this Application but the generic product has your crop and pest on the label, always follow that product label. If any information in this Application or any other publication conflicts with the information on the label, always use the label recommendation. Pesticides are only to be used in an approved manner and that are in accordance with that of the buyer/processor.</p>
+        </div>
+    )
+}
+
+export default Disclaimer

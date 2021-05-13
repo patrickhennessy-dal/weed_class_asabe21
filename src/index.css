@@ -94,6 +94,10 @@ body {
     text-align: center;
 }
 
+.management a {
+    text-decoration: none;
+}
+
 pre {
     /*white-space: pre-wrap;*/
     tab-size: 4;
@@ -108,6 +112,14 @@ pre {
 
 p {
     margin-bottom: 0.5em;
+}
+
+.disclaimer {
+    font-size: xx-small;
+}
+
+.disclaimerStar {
+    font-size: small;
 }
 
 .reference {

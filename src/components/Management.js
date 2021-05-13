@@ -3,7 +3,7 @@ import React from 'react'
 const Management = () => {
     return (
         <div className='management text centreColumn'>
-            <h2>Management Options</h2>
+            <h2>Management Options<a href='#disclaimer'><i>*</i></a></h2>
             <h3>Bunchberry</h3>
             <p>Bunchberry [<i>Cornus canadensis</i> L.] is susceptible to spot treatments of tribenuron-methyl [Spartan], although it may require subsequent applications in future years (Government of New Brunswick, 2017; Yarborough, 2009).</p>
             <h3>Goldenrod</h3>

@@ -8,7 +8,7 @@ const Cite = () => {
             {/*<pre><code className='citeCode'>{`
                 const citation = () => {
                     title =     'Convolutional Neural Network Web Application for Aiding Field Management in Wild Blueberry';
-                    authors =   ['Patrick J. Hennessy', 'Travis J. Esau', 'Arnold W. Schumann', 'Aitazaz A. Farooque', 'Scott N. White', 'Qamar U. Zaman'];
+                    authors =   ['Patrick J. Hennessy', 'Travis J. Esau', 'Arnold W. Schumann', 'Qamar U. Zaman', 'Scott N. White', 'Aitazaz A. Farooque'];
                     year =      2021;
                     procTitle = '2021 ASABE Annual International Meeting';
                     procCity =  'Virtual';
@@ -19,7 +19,7 @@ const Cite = () => {
                 <span>
 {`const citation = () => {
     title       = 'Convolutional Neural Network Web Application for Aiding Field Management in Wild Blueberry';
-    authors     = ['Patrick J. Hennessy', 'Travis J. Esau', 'Arnold W. Schumann', 'Aitazaz A. Farooque', 'Scott N. White', 'Qamar U. Zaman'];
+    authors     = ['Patrick J. Hennessy', 'Travis J. Esau', 'Arnold W. Schumann', 'Qamar U. Zaman', 'Scott N. White', 'Aitazaz A. Farooque'];
     year        = 2021;
     procTitle   = '2021 ASABE Annual International Meeting';
     procCity    = 'Virtual';

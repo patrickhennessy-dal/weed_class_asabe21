@@ -4,7 +4,7 @@ const Cite = () => {
     return (
         <div className = 'cite text centreColumn'>
             <h2>Cite</h2>
-            <p>If you wish to use this work, please cite our <a href='https://www.asabemeetings.org/' target='_blank' rel='noopener noreferrer'>paper</a> in the ASABE AIM 2021 conference proceedings:</p>
+            <p>If you wish to use this work, please cite our <a href='https://cdn.jsdelivr.net/gh/patrickhennessy-dal/weed-class-asabe21/src/assets/hennessy_asabe21_poster.pdf' target='_blank' rel='noopener noreferrer'>poster</a> in the ASABE AIM 2021 conference proceedings:</p>
             {/*<pre><code className='citeCode'>{`
                 const citation = () => {
                     title =     'Convolutional Neural Network Web Application for Aiding Field Management in Wild Blueberry';
@@ -12,7 +12,6 @@ const Cite = () => {
                     year =      2021;
                     procTitle = '2021 ASABE Annual International Meeting';
                     procCity =  'Virtual';
-                    doi =       '10.13031/aim.2100661';
                 };    
             `}</code></pre>*/}
             <pre className='citeCode'>
@@ -23,7 +22,6 @@ const Cite = () => {
     year        = 2021;
     procTitle   = '2021 ASABE Annual International Meeting';
     procCity    = 'Virtual';
-    doi         = '10.13031/aim.2100661';
 };`}
                 </span>    
             </pre>
